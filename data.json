@@ -1,0 +1,26 @@
+{
+  "name": "José Freitas",
+  "avatar": "https://media.licdn.com/dms/image/C4E03AQEEIIFtY3HU-g/profile-displayphoto-shrink_800_800/0/1630693518571?e=1679529600&v=beta&t=Bd9CxekbBckhRd9lC26n6iCtUy0INNkbyx5kIWKljH4",
+  "links": [
+    {
+      "title": "Personal Site",
+      "url": "https://www.linkedin.com/in/josé-bernardo-freitas-8a8b761b7/",
+      "image": "https://cdn-icons-png.flaticon.com/512/1157/1157109.png"
+    },
+    {
+      "title": "Github",
+      "url": "https://github.com/JoseFreitas990",
+      "image": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+    },
+    {
+      "title": "LinkedIn",
+      "url": "https://www.linkedin.com/in/josé-bernardo-freitas-8a8b761b7/",
+      "image": "https://cdn-icons-png.flaticon.com/512/174/174857.png"
+    },
+    {
+      "title": "My Curriculum Vitae",
+      "url": "https://drive.google.com/file/d/1iwsNAVnIStggR7HqXhGbbUZHT-0T3lsG/view?usp=sharing",
+      "image": "https://t4.ftcdn.net/jpg/01/39/64/23/240_F_139642321_ptZco8pbwESSjMnsxjx6KXg4DkoCmHES.jpg"
+    }
+  ]
+}

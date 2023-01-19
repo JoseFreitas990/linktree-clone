@@ -3,6 +3,16 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-}
+  images: {
+    domains: [
+      'pbs.twimg.com',
+      'media.licdn.com',
+      'github.githubassets.com',
+      'www.linkedin.com',
+      'cdn-icons-png.flaticon.com',
+      't4.ftcdn.net',
+    ],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
