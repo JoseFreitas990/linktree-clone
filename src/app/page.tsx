@@ -12,7 +12,8 @@ const LinkCard = (props: any) => {
       target="_blank"
       className="flex flex-row justify-between items-center lg:w-1/3 max-w-lg w-full border 
     border-gray-200 mb-2 bg shadow-md  py-0.5 rounded-md cursor-pointer 
-    hover:scale-110 hover:shadow-xl transition-all bg-opacity-980 bg-white"
+    hover:scale-110 hover:shadow-xl transition-all bg-opacity-980
+     bg-white active:bg-slate-400"
       rel="noreferrer"
     >
       <div className="w-10 h-10 ml-1 my-0.5 ">
