@@ -1,11 +1,10 @@
+'use client';
+
 import Image from 'next/image';
-import { Inter } from '@next/font/google';
-import styles from './page.module.css';
 import data from '../../data.json';
-const inter = Inter({ subsets: ['latin'] });
 
 const LinkCard = (props: any) => {
-  const { item } = props;
+  const { item, index } = props;
   return (
     <a
       href={item.url}
@@ -16,9 +15,9 @@ const LinkCard = (props: any) => {
      bg-white active:bg-slate-400"
       rel="noreferrer"
     >
-      <div className="w-10 h-10 ml-1 my-0.5 ">
+      <div className="w-10 h-10 ml-1 my-0.5 flex items-center ">
         <Image
-          src={item.image}
+          src={index == 0 ? require('../../assets/Logo.png') : item.image}
           className="rounded"
           alt="avatar"
           width={40}
@@ -46,8 +45,8 @@ const Home = () => {
         <h1 className="font-semibold text-lg text-white">José Freitas</h1>
         <h3 className="font-thin text-md text-white">Frontend Developer </h3>
       </div>
-      {data.links.map((item) => (
-        <LinkCard key={item.title} item={item} />
+      {data.links.map((item, index) => (
+        <LinkCard key={item.title} index={index} item={item} />
       ))}
     </main>
   );

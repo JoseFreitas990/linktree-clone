@@ -11,6 +11,7 @@ const nextConfig = {
       'www.linkedin.com',
       'cdn-icons-png.flaticon.com',
       't4.ftcdn.net',
+      'drive.google.com',
     ],
   },
 };
